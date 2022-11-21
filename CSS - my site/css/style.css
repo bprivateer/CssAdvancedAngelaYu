@@ -1,6 +1,12 @@
 a {
   color: #11999E;
-  margin-top: 100px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+
+}
+a:hover {
+  color: white;
 }
 
 body {
@@ -35,10 +41,13 @@ hr {
   border-style: dotted none none none;
   border-width: 5px;
   width: 5%;
+  margin: 100px auto 100px auto;
 }
 
 p {
   font-weight: bold;
+  line-height: 2;
+  color: grey;
 }
 
 .bottomCloud {
@@ -63,38 +72,31 @@ p {
 .profile {
   margin: 50px auto 50px auto;
   width: 30%;
-  line-height: 2;
 }
 
-.middleContainer {}
+.middleContainer {
+  margin: 100px 0;
+}
 
 .bottomContainer {
   background-color: #66BFBF;
-  height: 200px;
-  margin-top: 100px;
-  position: relative;
+  padding: 50px 0 20px;
 }
 
 .footer-link {
-  position: relative;
-  top: 50px;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  padding: 0 25px 0 25px;
   font-weight: bolder;
 }
 
 .footer-link-p {
   color: white;
-  position: relative;
-  top: 100px;
+font-size: .75rem;
+padding: 20px 0;
 }
 
 .skill-row {
   margin: 100px auto 100px auto;
-  width: 50%;
+  width: 60%;
   text-align: left;
-  line-height: 2;
 }
 
 .pro {
@@ -115,8 +117,8 @@ p {
 
 .contactMe {
   line-height: 2;
-  width: 30%;
-  margin: 50px auto 50px auto;
+  width: 40%;
+  margin: 50px auto;
 }
 
 .btn {
@@ -129,7 +131,7 @@ p {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
